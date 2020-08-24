@@ -1,5 +1,9 @@
 # Test fixture issue
 
+Stumbled into this issue since we run unit tests in an isolated docker image
+before we run integration tests in a docker-compose environment where we can
+test with other services available.
+
 ## :each
 Works as expected.
 ``` bash
